@@ -1,0 +1,56 @@
+﻿@model Mazi.Pipeline.WebUi.Models.DevelopmentLoginModel
+@{
+	ViewData["Title"] = "DevelopmentLogin";
+}
+
+<h2>Development Login</h2>
+
+<h6 class="text-primary">
+	This type of login is only for use on your development machine.<br />
+	Don't use this in the cloud.<br />
+	To turn it off, edit `appsettings.json`.
+</h6>
+
+<h4>
+	`admin@test.com` is an admin user.<br />
+	Any other username is valid.
+</h4>
+
+<hr />
+
+<div class="row">
+	<div class="col-md-4">
+		<form asp-action="DevelopmentLogin">
+			<div asp-validation-summary="ModelOnly" class="text-danger small"></div>
+
+
+			<div class="form-group">
+				<label asp-for="Username" class="col-form-label"></label>
+				<input asp-for="Username" class="form-control" value="admin@test.com" />
+				<span asp-validation-for="Username" class="text-danger small"></span>
+			</div>
+
+			<div class="form-group">
+				<label asp-for="Password" class="col-form-label"></label>
+				<input asp-for="Password" class="form-control" value="Password can be any value" />
+				<span asp-validation-for="Password" class="text-danger small"></span>
+			</div>
+
+			<div class="form-check m-3">
+				<input asp-for="KeepMeLoggedIn" class="form-check-input" />
+				<label class="form-check-label">Keep me logged in</label>
+				<span asp-validation-for="KeepMeLoggedIn" class="text-danger small"></span>
+			</div>
+
+			<div class="input-group">
+				<input type="submit" value="Create" class="btn btn-outline-secondary" />
+			</div>
+		</form>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

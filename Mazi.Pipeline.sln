@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mazi.Pipeline.WebUi", "Mazi.Pipeline.WebUi\Mazi.Pipeline.WebUi.csproj", "{BBB2E899-A6E9-41D3-AD35-933EE499B7CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazi.Pipeline.Api", "Mazi.Pipeline.Api\Mazi.Pipeline.Api.csproj", "{AE4CBDAA-BB29-4BE9-A688-46E5549B2944}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazi.Pipeline.Common", "Mazi.Pipeline.Common\Mazi.Pipeline.Common.csproj", "{F3A34862-E5E4-4AF0-8AFB-8CE8DB99E5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazi.Pipeline.JsonUtilities", "Mazi.Pipeline.JsonUtilities\Mazi.Pipeline.JsonUtilities.csproj", "{07BA5403-22ED-450B-A71D-FDC1A1788573}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mazi.Pipeline.SqlServer", "Mazi.Pipeline.SqlServer\Mazi.Pipeline.SqlServer.csproj", "{BE6D9C0A-43BF-4F7B-A004-5988BB5BE74C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB2E899-A6E9-41D3-AD35-933EE499B7CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB2E899-A6E9-41D3-AD35-933EE499B7CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB2E899-A6E9-41D3-AD35-933EE499B7CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB2E899-A6E9-41D3-AD35-933EE499B7CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE4CBDAA-BB29-4BE9-A688-46E5549B2944}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE4CBDAA-BB29-4BE9-A688-46E5549B2944}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE4CBDAA-BB29-4BE9-A688-46E5549B2944}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE4CBDAA-BB29-4BE9-A688-46E5549B2944}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A34862-E5E4-4AF0-8AFB-8CE8DB99E5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A34862-E5E4-4AF0-8AFB-8CE8DB99E5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A34862-E5E4-4AF0-8AFB-8CE8DB99E5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A34862-E5E4-4AF0-8AFB-8CE8DB99E5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07BA5403-22ED-450B-A71D-FDC1A1788573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07BA5403-22ED-450B-A71D-FDC1A1788573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07BA5403-22ED-450B-A71D-FDC1A1788573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07BA5403-22ED-450B-A71D-FDC1A1788573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE6D9C0A-43BF-4F7B-A004-5988BB5BE74C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE6D9C0A-43BF-4F7B-A004-5988BB5BE74C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE6D9C0A-43BF-4F7B-A004-5988BB5BE74C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE6D9C0A-43BF-4F7B-A004-5988BB5BE74C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C75C6F5-3CF2-4F43-A575-1B1928B496A0}
+	EndGlobalSection
+EndGlobal
